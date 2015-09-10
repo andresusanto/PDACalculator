@@ -1,5 +1,6 @@
 # PDA Calculator
 ![PDA Calculator](/../screenshoot/screenshoots/usage1.jpg?raw=true)
+
 Pushdown Automaton (PDA) implementation for validating calculator syntax in Java.
 
 ## Intro
@@ -59,7 +60,7 @@ User gave correct input:
 
 User gave bad input:
 
-![Bad Input](/../screenshoot/screenshoots/usage2.jpg?raw=true)
+![Bad Input](/../screenshoot/screenshoots/usage2.JPG?raw=true)
 
 ## License
 MIT License
