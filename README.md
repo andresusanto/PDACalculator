@@ -1,7 +1,7 @@
 # PDA Calculator
 ![PDA Calculator](/../screenshoot/screenshoots/usage1.jpg?raw=true)
 
-Pushdown Automaton (PDA) implementation for validating calculator syntax in Java.
+Pushdown Automaton (PDA) implementation for validating calculator syntax in Java. For example `2*(3/(4+5+6))` is valid, or `1+(2*3` is invalid.
 
 ## Intro
 ### What is PDA?
@@ -16,8 +16,11 @@ In this project, we made a PDA Calculator that can validate and calculate inputs
 **Description:**
 
 Q0 : Handles "(" or "numbers"
+
 Q1 : Handles mathematics expression with "(" inside the expression (not in beginning).
+
 Q2 : Handles mathematics operators (eg + / * -)
+
 Q3 : Final state (empty stack)
 
 **PDA Notations:**
